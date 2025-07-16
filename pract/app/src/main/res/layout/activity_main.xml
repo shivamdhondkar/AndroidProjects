@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bree_serif"
+        android:textStyle="normal"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Languages"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bree_serif"
+        android:textStyle="normal"
+        />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textSize="25dp"
+        android:fontFamily="@font/bree_serif"
+        android:textStyle="normal"
+        />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textSize="25dp"
+        android:fontFamily="@font/bree_serif"
+        android:textStyle="normal"
+        />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:textSize="25dp"
+        android:fontFamily="@font/bree_serif"
+        android:textStyle="normal"
+        />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textSize="25dp"
+        android:fontFamily="@font/bree_serif"
+        android:textStyle="normal"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Group"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bree_serif"
+        android:layout_above="@+id/rr"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rr"
+
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:fontFamily="@font/bree_serif"
+            android:textAllCaps="true"
+            android:paddingLeft="7dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bree_serif"
+            android:textAllCaps="true"
+            android:paddingLeft="7dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bree_serif"
+            android:paddingLeft="7dp"
+            android:text="Transgender"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+    </RadioGroup>
+</LinearLayout>
