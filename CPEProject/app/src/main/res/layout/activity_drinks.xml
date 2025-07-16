@@ -1,0 +1,445 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg_3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="280dp"
+                android:src="@drawable/xlr"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XLR8 Isotonic Re Hydration Drink"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:id="@+id/ditemname1"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description"
+                    android:id="@+id/p1"
+                    android:fontFamily="@font/poppins_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:50 ₹"
+                    android:fontFamily="@font/poppins_bold"
+                    android:id="@+id/price1"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+                    android:stepSize="0.1"
+                    android:layout_marginTop="8dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dadd_1"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dbuy_1"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dproduct_1"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape" android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/redbullimg"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red Bull"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:id="@+id/ditemname2"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_light"
+                    android:id="@+id/p2"
+                    android:text="Product Description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:40 ₹"
+                    android:id="@+id/price2"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+                    android:stepSize="0.1"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dadd_2"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dbuy_2"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dproduct_2"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/herballifedrink"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Herbalife Afresh Energy Drink"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:id="@+id/ditemname3"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description"
+                    android:id="@+id/p3"
+                    android:fontFamily="@font/poppins_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:100 ₹"
+                    android:fontFamily="@font/poppins_bold"
+                    android:id="@+id/price3"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+                    android:stepSize="0.1"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dadd_3"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dbuy_3"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dproduct_3"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/isotonic"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XLR8 Isotonic Re Hydration Drink"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:id="@+id/ditemname4"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description"
+                    android:id="@+id/p4"
+                    android:fontFamily="@font/poppins_light"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:100 ₹"
+                    android:id="@+id/price4"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.5"
+                    android:stepSize="0.1"
+                    android:layout_marginTop="8dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add to Cart"
+                    android:id="@+id/dadd_4"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dbuy_4"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Details"
+                    android:id="@+id/dproduct_4"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/amlajuice"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nutriorg Amla Juice"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:id="@+id/ditemname5"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product 1 Description"
+                    android:id="@+id/p5"
+                    android:fontFamily="@font/poppins_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: 40₹"
+                    android:id="@+id/price5"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4"
+
+                    android:stepSize="0.1" android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dadd_5"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dbuy_5"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dproduct_5"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

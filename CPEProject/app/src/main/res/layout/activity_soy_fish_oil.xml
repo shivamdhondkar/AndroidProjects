@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SoyFishOil">
+
+    <ImageView
+        android:paddingTop="50dp"
+        android:id="@+id/protain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fishoil"
+        />
+
+    <TextView
+        android:paddingTop="30dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Price:150 ₹"
+        />
+    <TextView
+        android:paddingTop="30dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="price : 600
+MuscleBlaze Fish Oil Gold each softgel containing 1250mg of omega-3 fatty acids that provides 560mg EPA (Eicosapentaenoic acid) and 400mg DHA"
+        android:backgroundTint="@color/textback"
+
+        />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/qty1"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity : 1"
+        />
+
+
+    </AbsoluteLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Buy Now"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/wellcarebtn"/>
+
+</LinearLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="UserName:"-->
+<!--        android:layout_marginLeft="20sp"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:fontFamily="@font/antic_didone"-->
+<!--        android:id="@+id/tv_my_profile_username"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Password:"-->
+<!--        android:layout_marginLeft="20sp"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:fontFamily="@font/antic_didone"-->
+<!--        android:id="@+id/tv_my_profile_password"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_my_profile_token"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/antic_didone"-->
+<!--        android:text=""-->
+<!--        android:textIsSelectable="true"-->
+<!--        android:textSize="25dp"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:textStyle="bold" />-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/top_background" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.402"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.505"
+                    app:srcCompat="@drawable/login_logo" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WellNest "
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:layout_marginTop="16dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wellnest@gmail.com"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView"
+                    app:layout_constraintStart_toStartOf="@+id/textView"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginBottom="10dp"
+                        android:drawableStart="@drawable/ic_1"
+                        android:drawablePadding="20dp"
+                        android:paddingStart="20dp"
+                        android:text="My Profile"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        style="@android:style/Widget.Button"
+                        android:textAlignment="viewStart" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/tv_my_profile_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="32dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        style="@android:style/Widget.Button"
+                        android:layout_marginBottom="10dp"
+                        android:drawableStart="@drawable/ic_2"
+                        android:drawablePadding="20dp"
+                        android:paddingStart="20dp"
+                        android:text=""
+                        android:fontFamily="@font/poppins_bold"
+                        android:textAlignment="viewStart" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/tv_my_profile_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="32dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        style="@android:style/Widget.Button"
+                        android:layout_marginBottom="10dp"
+                        android:drawableStart="@drawable/ic_3"
+                        android:drawablePadding="20dp"
+                        android:paddingStart="20dp"
+                        android:text=""
+                        android:fontFamily="@font/poppins_bold"
+                        android:textAlignment="viewStart" />
+                    <TextView
+                        android:id="@+id/tv_my_profile_token"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/antic_didone"
+                        android:text=""
+                        android:textIsSelectable="true"
+                        android:textSize="25dp"
+                        android:layout_marginTop="300dp"
+                        android:textStyle="bold" />
+<!--                    <androidx.appcompat.widget.AppCompatButton-->
+<!--                        android:id="@+id/button4"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginStart="32dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        style="@android:style/Widget.Button"-->
+<!--                        android:layout_marginEnd="32dp"-->
+<!--                        android:layout_marginBottom="10dp"-->
+<!--                        android:drawableStart="@drawable/ic_4"-->
+<!--                        android:drawablePadding="20dp"-->
+<!--                        android:paddingStart="20dp"-->
+<!--                        android:fontFamily="@font/poppins_bold"-->
+<!--                        android:text="Notification"-->
+<!--                        android:textAlignment="viewStart" />-->
+<!--                    <androidx.appcompat.widget.AppCompatButton-->
+<!--                        android:id="@+id/button5"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginStart="32dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginEnd="32dp"-->
+<!--                        android:fontFamily="@font/poppins_bold"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        style="@android:style/Widget.Button"-->
+<!--                        android:layout_marginBottom="10dp"-->
+<!--                        android:drawableStart="@drawable/ic_5"-->
+<!--                        android:drawablePadding="20dp"-->
+<!--                        android:paddingStart="20dp"-->
+<!--                        android:text="Fingerprint Settings"-->
+<!--                        android:textAlignment="viewStart" />-->
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_back"
+                        style="@android:style/Widget.Button"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginStart="32dp"
+                        android:text="Back to Main page"
+                        android:fontFamily="@font/poppins_extrabold"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

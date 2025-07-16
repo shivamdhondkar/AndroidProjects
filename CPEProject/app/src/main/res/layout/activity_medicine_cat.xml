@@ -1,0 +1,434 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg_3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="280dp"
+                android:src="@drawable/aminirich"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aminorich Tablet"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:id="@+id/itemname1"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" treat deficiencies of amino acids and essential nutrients"
+
+                    android:fontFamily="@font/poppins_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:120 ₹"
+
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+                    android:stepSize="0.1"
+
+                    android:layout_marginTop="8dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sadd_1"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sbuy_1"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sproduct_1"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape" android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/acrotac25mg"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acrotac 25ma Capsule"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Used in the treatment of psoriasis"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:120 ₹"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+                    android:stepSize="0.1"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sadd_2"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sbuy_2"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sproduct_2"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/coughsireoh"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cough Syurup"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zedex Plus Cough Syrup Sugar Free"
+                    android:fontFamily="@font/poppins_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:250 ₹"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+                    android:stepSize="0.1"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sadd_3"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sbuy_3"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sproduct_3"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/lucoline"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luco Line Tablet"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Treated for Respiratory tract disorders"
+                    android:fontFamily="@font/poppins_light"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:199 ₹"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+                    android:stepSize="0.1"
+                    android:layout_marginTop="8dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add to Cart"
+                    android:id="@+id/sadd_4"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sbuy_4"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Details"
+                    android:id="@+id/sproduct_4"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:src="@drawable/solvincoughtablet"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Solvin Cough Tablet"
+                    android:fontFamily="@font/quicksand_variablefont_wght"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chlorpheniramine Maleate and Dextromethorphan Hydrobromide"
+                    android:fontFamily="@font/poppins_light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: 100₹"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textStyle="bold"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.8"
+
+                    android:stepSize="0.1" android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sadd_5"
+                    android:text="Add to Cart"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sbuy_5"
+                    android:text="Buy Now"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sproduct_5"
+                    android:text="Product Details"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="15dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

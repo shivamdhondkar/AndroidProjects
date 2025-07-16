@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="#5AC6F6"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/img_regs_logo"
+        android:layout_width="120dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/imagesbg" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#FAF5F5"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_login_cardtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:fontFamily="@font/antic_didone"
+                android:text="Register Here  "
+                android:textAlignment="center"
+                android:textColor="#020B00"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Name"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:fontFamily="@font/antic_didone"
+                android:layout_marginTop="5sp"
+
+                />
+
+            <EditText
+                android:id="@+id/et_regs_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/antic_didone"
+                android:hint=" Enter Name"
+                android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+                android:inputType="text"
+                android:drawablePadding="3dp"
+                android:padding="9dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Number"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:fontFamily="@font/antic_didone"
+                android:layout_marginTop="5sp"
+
+                />
+
+            <EditText
+                android:id="@+id/et_regs_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/antic_didone"
+                android:hint=" Enter Number"
+                android:drawableLeft="@drawable/baseline_call_24"
+                android:inputType="number"
+                android:maxLength="10"
+                android:drawablePadding="3dp"
+                android:padding="9dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Email ID"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:fontFamily="@font/antic_didone"
+                android:layout_marginTop="5sp"
+
+                />
+
+            <EditText
+                android:id="@+id/et_regs_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/antic_didone"
+                android:hint=" Enter Email ID"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:inputType="text"
+                android:drawablePadding="3dp"
+                android:padding="9dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Username"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:fontFamily="@font/antic_didone"
+                android:layout_marginTop="5sp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/et_regs_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/antic_didone"
+                android:hint=" Enter Username"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="3sp"
+                android:inputType="text"
+                android:padding="9dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Password"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:fontFamily="@font/antic_didone"
+                android:layout_marginTop="5sp"
+
+                />
+
+            <EditText
+                android:id="@+id/et_regs_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/antic_didone"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm Password "
+                android:fontFamily="@font/antic_didone"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/et_regs_con_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:drawableLeft="@drawable/baseline_key_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/antic_didone"
+                android:hint="Password"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <CheckBox
+                android:id="@+id/chk_regs_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/antic_didone"
+                android:text="Show Password"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_regs_registration"
+                android:layout_gravity="center"
+                android:backgroundTint="#03A9F4"
+                android:text="Register"
+                android:fontFamily="@font/antic_didone"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

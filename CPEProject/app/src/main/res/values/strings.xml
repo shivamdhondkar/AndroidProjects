@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="light_at_the_end_of_the_tunnel">Light at the end of the tunnel</string>
+    <string name="todo">TODO</string>
+    <string name="restro">Restro</string>
+    <string name="subway">Subway</string>
+    <string name="Restro">Restro</string>
+    <string name="by_ayush_solanke">By Ayush Solanke</string>
+    <string name="logout">Logout</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="my_profile">My Profile</string>
+    <string name="settings">Cart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_location">MyLocationActivity</string>
+    <string name="default_web_client_id"> 915790487245-363m57qqasdsjh2e1i4voahh2q9ruqit.apps.googleusercontent.com</string>
+</resources>

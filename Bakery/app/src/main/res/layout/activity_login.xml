@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        app:lottie_rawRes="@raw/login"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:backgroundTint="#EAE6DA"
+        app:cardCornerRadius="16sp"
+        app:cardElevation="16sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8A0B9"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/LOGIN"
+                android:gravity="center"
+                android:textColor="#8A6226"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:drawableStart="@drawable/icon_username"
+                android:drawablePadding="5sp"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/username"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:drawableStart="@drawable/icon_password"
+                android:drawablePadding="5sp"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextFields" />
+
+            <CheckBox
+                android:id="@+id/check_box_show_hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/show_password"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:buttonTint="@color/baby_pink" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/butt_login_b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15sp"
+                android:backgroundTint="@color/baby_pink"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/login"
+                android:textColor="#59401C"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_login_not_yet_registered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/new_user"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or_register_with"
+        android:fontFamily="@font/aclonica"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:id="@+id/img_login_google"
+            android:src="@drawable/google"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="18sp"/>
+        <ImageView
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:id="@+id/img_login_facebook"
+            android:src="@drawable/facebook"
+            android:layout_marginStart="100sp"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/tv_terms_condition"
+            android:text="Terms &amp; Conditions"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="@font/aclonica"
+            />
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

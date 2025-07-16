@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Himalaya_Ashvagandha"
+    android:orientation="vertical">
+    <ImageView
+        android:paddingTop="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/prod_4"
+        />
+
+    <TextView
+        android:paddingTop="30dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Price:460 ₹"
+        />
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+android:text="Himalaya Ashvagandha Tablets are a dietary supplement containing the extract of Ashwagandha (Withania somnifera), an herb widely used in traditional Ayurvedic medicine."
+        />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:id="@+id/qty1"
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity : 1"
+            />
+
+
+    </AbsoluteLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Buy Now"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/wellcarebtn"/>
+
+</LinearLayout>

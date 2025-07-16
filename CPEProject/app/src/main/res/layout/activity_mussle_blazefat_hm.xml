@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MussleBlazefatHM">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+
+        android:src="@drawable/mussleblaze"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+
+        android:text="Price : 1999 ₹ \nThe all new and improved MuscleBlaze MB Burner Pro comprises super ingredients in potent quantities that will accelerate your weight management goals
+ Contains 400mg Garcinia Cambogia, 240mg green tea, and 100mg green coffee bean extract that are helpful in suppressing appetite and help with healthy weight loss"
+        />
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:id="@+id/qty1"
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity : 1"
+            />
+
+
+    </AbsoluteLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Buy Now"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/wellcarebtn"/>
+
+</LinearLayout>

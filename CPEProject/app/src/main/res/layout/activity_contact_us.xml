@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_shape"
+    >
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/lottie"
+        app:lottie_rawRes="@raw/sms"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:elevation="5dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="35dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic_didone"
+        android:textColor="@color/black"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_number_cardinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        app:cardBackgroundColor="#C2C4C5"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="5dp"
+       >
+    <EditText
+        android:id="@+id/et_contact_us_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/antic_didone"
+        android:hint="Enter Your Number "
+        android:drawableLeft="@drawable/baseline_call_24"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/et_contact_us_message"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/antic_didone"
+            android:hint="Enter Your Message "
+            android:drawableLeft="@drawable/baseline_message_24"
+            android:inputType="text"
+            android:padding="8dp"
+            android:background="@drawable/editext_shape"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="25dp"
+            />
+
+
+    <Button
+        android:id="@+id/btn_contact_us_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:backgroundTint="#9BE3F4"
+        android:textStyle="bold"
+        android:textColor="#08414E"
+        android:fontFamily="@font/antic_didone"
+        android:text="Send"
+        android:textSize="20sp" />
+
+</LinearLayout>

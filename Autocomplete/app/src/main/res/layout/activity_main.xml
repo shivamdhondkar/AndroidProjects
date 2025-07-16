@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg_1"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="500dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="30dp"
+        android:completionThreshold="1"
+        android:hint="Search States of India"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDIAN STATES"
+        android:layout_below="@id/autoCompleteTextView"
+        android:layout_marginLeft="90dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-medium"
+        />
+
+
+</RelativeLayout>
+

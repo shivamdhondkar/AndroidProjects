@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg"
+    android:orientation="vertical"
+    tools:context=".CupCakeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="!! Birthday Special !!"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_margin="15sp"
+        app:cardBackgroundColor="@color/light_grey"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_sky_blue"
+            android:gravity="center"
+            android:text="Chocolate"
+            android:textColor="@color/brown"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_chocolate_birthday_cake"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15sp"
+            android:src="@drawable/chocolate_cake" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120sp"
+            android:fontFamily="@font/aclonica"
+            android:paddingLeft="15sp"
+            android:text="Price : 550/-"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        app:cardBackgroundColor="@color/light_grey"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_sky_blue"
+            android:gravity="center"
+            android:text="Vanilla"
+            android:textColor="@color/brown"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_vanilla_birthday_cake"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_gravity="center"
+            android:src="@drawable/vaniila_cake" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120sp"
+            android:fontFamily="@font/aclonica"
+            android:paddingLeft="15sp"
+            android:text="Price : 350/-"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

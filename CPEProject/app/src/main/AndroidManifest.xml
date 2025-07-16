@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".XLR_isotonic_2"
+            android:exported="false" />
+        <activity
+            android:name=".Solvin_Cough_Tablet"
+            android:exported="false" />
+        <activity
+            android:name=".Luco_Line_Tablet"
+            android:exported="false" />
+        <activity
+            android:name=".Cough_Syurup"
+            android:exported="false" />
+        <activity
+            android:name=".Acrotac_Capsule"
+            android:exported="false" />
+        <activity
+            android:name=".Aminorich_Tablet"
+            android:exported="false" />
+        <activity
+            android:name=".Rubber_Band"
+            android:exported="false" />
+        <activity
+            android:name=".Back_Belt"
+            android:exported="false" />
+        <activity
+            android:name=".Dumble_Set"
+            android:exported="false" />
+        <activity
+            android:name=".Straitner"
+            android:exported="false" />
+        <activity
+            android:name=".Novia_Belt"
+            android:exported="false" />
+        <activity
+            android:name=".Tooth_Brush"
+            android:exported="false" />
+        <activity
+            android:name=".Lily_Fresh"
+            android:exported="false" />
+        <activity
+            android:name=".Surf_Excel"
+            android:exported="false" />
+        <activity
+            android:name=".Ashirvad_Salt"
+            android:exported="false" />
+        <activity
+            android:name=".Colgate"
+            android:exported="false" />
+        <activity
+            android:name=".Redbull"
+            android:exported="false" />
+        <activity
+            android:name=".Paracetamol_Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".Nasal_Spray"
+            android:exported="false" />
+        <activity
+            android:name=".Diabetes_Medicine_Tablets"
+            android:exported="false" />
+        <activity
+            android:name=".Protinex_Protein_Shake"
+            android:exported="false" />
+        <activity
+            android:name=".MyFitness_Peanut_Butter"
+            android:exported="false" />
+        <activity
+            android:name=".MusleBlaze_Carb"
+            android:exported="false" />
+        <activity
+            android:name=".Asitis_Nutrition_Whey"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleBlaze_MB_Burner"
+            android:exported="false" />
+        <activity
+            android:name=".Wellcore_Pure"
+            android:exported="false" />
+        <activity
+            android:name=".Nutriorg_Amla_Juice"
+            android:exported="false" />
+        <activity
+            android:name=".XLR_Isonotic_Drink"
+            android:exported="false" />
+        <activity
+            android:name=".Herbalife_Energy_Drink"
+            android:exported="false" />
+        <activity
+            android:name=".Dabur_Shilajit"
+            android:exported="false" />
+        <activity
+            android:name=".Organic_India_Tulsi60"
+            android:exported="false" />
+        <activity
+            android:name=".Himalaya_Ashvagandha"
+            android:exported="false" />
+        <activity
+            android:name=".GNC_Calcium"
+            android:exported="false" />
+        <activity
+            android:name=".Divine_Nutrition"
+            android:exported="false" />
+        <activity
+            android:name=".Supradyn_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".VitalFIshOilHM"
+            android:exported="false" />
+        <activity
+            android:name=".MussleBlazefatHM"
+            android:exported="false" />
+        <activity
+            android:name=".Order_PlacedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Orders"
+            android:exported="false" />
+        <activity
+            android:name=".kalmegh"
+            android:exported="false" />
+        <activity
+            android:name=".Herbal20Plant"
+            android:exported="false" />
+        <activity
+            android:name=".HarbalHairOil"
+            android:exported="false" />
+        <activity
+            android:name=".AyurK3Juice"
+            android:exported="false" />
+        <activity
+            android:name=".AyurvedicHairOil"
+            android:exported="false" />
+        <activity
+            android:name=".MedicineCat"
+            android:exported="false" />
+        <activity
+            android:name=".FitnessCat"
+            android:exported="false" />
+        <activity
+            android:name=".WellnessCat"
+            android:exported="false" />
+        <activity
+            android:name=".SoyFishOil"
+            android:exported="false" />
+        <activity
+            android:name=".AsitisSoyProtein"
+            android:exported="false" />
+        <activity
+            android:name=".WellcareCreatine"
+            android:exported="false" />
+        <activity
+            android:name=".WheyProtein"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleBlazeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Drinks"
+            android:exported="false" />
+        <activity
+            android:name=".Ayurveda"
+            android:exported="false" />
+        <activity
+            android:name=".SportNutrition"
+            android:exported="false" />
+        <activity
+            android:name=".Comman.hm"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDpf6v427N1GdWEfk3DiWa0EPiVCupPAv8" />
+
+        <activity
+            android:name=".MyLocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_my_location" />
+        <activity
+            android:name=".FrontActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddToCart"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
